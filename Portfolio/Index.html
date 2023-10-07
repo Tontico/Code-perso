@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Mon portfolio</title>
+    <meta name="description" content />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="assets/styles/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/styles/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Lekton&display=swap" rel="stylesheet" />
+    <script src="assets/script/js/bootstrap.bundle.min.js"  defer></script>
+  </head>
+  <!-- body page  -->
+  <body class="vh-100">
+    <!-- Header nav page -->
+    <header class=" mx-5 navbar navbar-expand-md navbar-light px-3">
+      <a href="#" class="navbar-brand">
+        <img src="assets/img/logo1.png" alt="logo" class="col12" id="taille-logo">
+      </a>
+      <button type="button" class="navbar-toggler custom-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-content">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <nav class="collapse navbar-collapse " id="navbar-content">
+        <ul class="navbar-nav ms-auto text-uppercase m-0 position-hover">
+          <li class="nav-item me-5 "><a href="#first-section" class="nav-link">Accueil</a></li>
+          <li class="nav-item me-5"><a href="#second-section" class="nav-link">A Propos</a></li>
+          <li class="nav-item me-5"><a href="#third-section" class="nav-link">Projets</a></li>
+          <li class="nav-item me-5"><a href="#fourth-section" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+     </header>
+    <!-- Main page -->
+    <main>
+      <!-- premiere section acceuil -->
+      <section class="py-5 bg-light m-5 d-flex align-items-start rounded" id="first-section">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-6 p-5 mb-8 d-flex flex-column justify-content-center">
+              <h1 class="heartbeat mb-3 text-center size"> Hello moi c'est Anthony ! </h1>
+              <div class="p-4 border-text">
+                <p class="debut text-center fw-bold"> Recherche d'alternance dans le dev web </p>
+                <p class="text-center"> Bonjour à tous ! Anciennement étudiant en licence informatique à l'université de Montpellier </p>
+                <hr />
+                <p class="text-center"> Depuis début 2023, je me suis réorienté dans le développement web. </p>
+                <hr />
+                <p class="text-center"> je cherche maintenant un environemment dans lequels je pourrais m'épanouir et cultiver mon savoir dans le dev ! </p>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 p-5 mb-5">
+              <img src="assets/img/hi.png " alt="logo" class="w-100 h-100 p-5" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- deuxieme section a propos -->
+      <section class="py-5 m-5 bg-light rounded" id="second-section">
+        <div class="container d-flex flex-column justify-content-center align-item-center">
+          <h2 class="text-center mt-2">A propos de moi !</h2>
+          <h3 class="text-center">Développement web/design | Accro au sport</h3>
+          <div class="row me-5">
+            <h4 class="my-3">
+              <em>En quelques mots</em>
+            </h4>
+            <div class="col-12 col-md-5 offset-1">
+              <img src="assets/img/section-2.png" alt="photo" class="w-100 h-100" />
+            </div>
+            <div class="col-12 col-md-5 offset-1 d-flex align-item-center flex-column justify-content-center">
+              <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error nesciunt dolore aperiam voluptates id aliquid omnis inventore molestiae sapiente est? Vero officiis quia fuga adipisci voluptates. Odio harum explicabo perferendis. </p>
+            </div>
+          </div>
+          <div class="row me-5">
+            <div class="col-12 col-md-5 offset-1 d-flex align-item-center flex-column justify-content-center">
+              <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error nesciunt dolore aperiam voluptates id aliquid omnis inventore molestiae sapiente est? Vero officiis quia fuga adipisci voluptates. Odio harum explicabo perferendis. </p>
+            </div>
+            <div class="col-12 col-md-5 offset-1 mb-5">
+              <img src="assets/img/power copy.png" alt="photo" class="w-100 h-100 " />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- troisieme section mes projets -->
+      <section class="py-5 m-5 bg-light rounded" id="third-section">
+        <div class="container">
+          <h2 class="mt-2">Mes projets</h2>
+          <div class="row m-5">
+            <div class="col-12 col-md-8 mx-auto offset-2 p-3 carous">
+              <div class="carousel slide" id="myCarousel">
+                <div class="carousel-inner rounded-4">
+                  <div class="img-position d-flex mx-auto">
+                    <div class="carousel-item active" data-bs-interval="2000">
+                      <img src="assets/img/back.jpg" alt="projet" class="d-block w-100" />
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>Second slide label</h5>
+                        <p>Some representative placeholder content for the second slide.</p>
+                      </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                      <img src="assets/img/back.jpg" alt="projet" class="d-block w-100" />
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>Second slide label</h5>
+                        <p>Some representative placeholder content for the second slide.</p>
+                      </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                      <img src="assets/img/back.jpg" alt="projet" class="d-block w-100" />
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>Second slide label</h5>
+                        <p>Some representative placeholder content for the second slide.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <button type="button" class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#myCarousel">
+                  <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button type="button" class="carousel-control-next" data-bs-slide="next" data-bs-target="#myCarousel">
+                  <span class="carousel-control-next-icon"></span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- footer page -->
+    <footer class="h-100 d-flex align-items-center bg-light mx-5 rounded" id="fourth-section">
+      <div class="footer border w-75 h-75 mx-auto m-5 d-flex flex-column justify-content-center p-5">
+        <div class="title-footer mb-5">
+          <h2 class="text-center"> Contactez-moi <span class="color">!</span>
+          </h2>
+        </div>
+        <div class="container content d-flex justify-content-center">
+          <div class="row container-info d-flex align-item-center justify-content-between p-2 ms-5">
+            <div class="col-12 col-md-6 d-flex flex-column justify-content-center border-left align-items-center">
+              <div class="bloc-loc p-0 d-flex flex-column align-item-center justify-content-center">
+                <i class="fa fa-heart mx-auto color"></i>
+                <p class="text-center">Balaruc-Les-Bains, France</p>
+              </div>
+              <div class="bloc-mail d-flex flex-column align-item-center">
+                <i class="fa fa-envelope-open mx-auto color"></i>
+                <p class="text-center">antho.noex@live.fr</p>
+              </div>
+              <div class="bloc-tel d-flex flex-column align-item-center">
+                <i class="fa fa-phone mx-auto color"></i>
+                <p class="">07 61 91 58 84</p>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 d-flex flex-column justify-content-center align-items-center">
+              <div class="bloc-git d-flex flex-column align-items-center">
+                <i class="fa fa-github mx-auto color"></i>
+                <p class="text-center">Github</p>
+              </div>
+              <div class="bloc-lkd d-flex flex-column align-items-center">
+                <i class="fa fa-linkedin mx-auto color"></i>
+                <p class="text-center">Anthony/Suraci</p>
+              </div>
+            </div>
+          </div>
+          <div class="row queries-image">
+            <div class="img-container queries-image col-12 col md-6">
+              <img src="assets/img/sticker.png" alt="sticker-footer" class="img-container">
+            </div>
+        </div>
+        </div>
+      </div>
+    </footer>
+    
+  </body>
