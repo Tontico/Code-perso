@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="" />
+    <script src="fetch.js" async defer></script>
+  </head>
+  <body>
+    <form>
+      <label for="regions">Sélectionnez une région :</label>
+      <select id="regions"></select>
+
+      <label for="departements">Sélectionnez un département :</label>
+      <select id="departements"></select>
+
+      <label for="communes">Sélectionnez une commune :</label>
+      <select id="communes"></select>
+    </form>
+    <div id="commune-info">
+      <p><strong>Nom de la commune :</strong> <span id="nom-commune"></span></p>
+      <p>
+        <strong>Nombre d'habitants :</strong>
+        <span id="habitants-commune"></span>
+      </p>
+      <p>
+        <strong>Code Postal :</strong> <span id="code-postal-commune"></span>
+      </p>
+    </div>
+  </body>
+</html>
