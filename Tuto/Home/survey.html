@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="styles.css">
+    <title>Survey form</title>
+  </head>
+  <body> 
+    <h1 id="title"> LiftingWeb Survey form </h1>
+    <p id="description"> Merci d'aider à faire   evoluer le projet en donnant votre avis !</p>
+  <form id="survey-form">
+    <label id="name-label">Nom/Prénom <input id="name" type="text" placeholder="Entre ton nom/prénom" required/></label>
+    <label id="email-label">Email <input id="email" type="email" placeholder="Entre ton mail" required/></label>
+    <label id="number-label">Age <input id="number" type="number" min="15" max="100"
+    placeholder="Age"></label>
+    <label id="select-label">Quel format pratiques-tu? 
+      <select id="dropdown">
+      <option>Selectionne ta catégorie</option>
+      <option>Bodybuilding</option>
+      <option>Powerlifting</option>
+      <option>Halterophilia</option>
+      </select></label>
+    <label>Recommenderez-tu ce site à un ami</label>
+    <label id="radio1">
+      <input class="radio" type="radio" name="button-survey" value="text"/>Clairement
+    </label>
+    <label id="radio2">
+      <input class="radio" type="radio" name="button-survey" value="text"/>Peut-être
+    </label>
+      <input type="checkbox" name="button-survey" value="text"/>
+      <input type="checkbox" name="button-survey2" value="text"/>
+    <label>Laisse un avis ! 
+      <textarea></textarea>
+    </label>
+      <button id="submit" type="submit">Submit</button>
+    </form>
+  </body>
+</html>
