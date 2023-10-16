@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', Arial;
+    margin: 0;
+    width: 100%;
+}
+
+.header-nav {
+    background-color : #0F9DF5;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.6em;
+    position: sticky;
+}
+
+.header-nav img {
+    width: 30%;
+}
+
+ .navbar {
+    padding: 0 20px;
+   
+}
+.navbar ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+    margin-left: 50px;
+
+}
+
+.container{
+    margin: 0;
+}
+.first-section{
+    width: 100%;
+    margin: auto;
+    height: 300px;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(back-piscine.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    box-shadow: 10px 5px 5px #f1d6b9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ .carroussel-img h1{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+ }
+.first-section p {
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+}
+.vertical{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+}
+
+ .vertical-line{
+    border-left: 2px solid black;
+    display: inline-block;
+    height: 130px;
+    margin: 30px;
+ }
+
+ .second-section{
+    width: 100%;
+    margin: auto;
+    color:black;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    border-bottom: 2px solid black;
+    padding: 20px;
+ }
+
+ .left-container{
+    display:flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-left: 30px;
+ }
+
+ .left-container h2{
+    margin: 20px;
+
+ }
+
+ .left-container p{
+    text-align: center;
+    margin: 20px; 
+}
+
+ .second-section img {
+    width: 40%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+ }
+
+ .contact-container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 40px;
+    background-color: #333;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 5px #f1d6b9;
+    text-align:center;
+ }
+
+ .contact-title{
+    color: white;
+    padding: 10px;
+  }
+  
+ .contact-title:hover{
+    color:#f1d6b9;
+  }
+
+  .contact-form {
+    text-align: left;
+  }
+  
+  .contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #fff;
+    text-align: left;
+  }
+  
+  .contact-form input
+  {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+   
+  }
+
+
+  .contact-form input{
+    color: black;
+  }
+  
+  .contact-form button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .contact-form button:hover {
+    background-color: #f1d6b9;
+  }
+
+  fieldset{
+    margin:10px;
+  }
+  legend{
+    color:white;
+  }
+  .radio{
+    padding: 10px;
+  }
+
+footer{
+    background-color: #0F9DF5;
+}
+footer img {
+    width: 300px;
+}
+
+.third-section{
+  width: 100%;
+
+}
+
+.third-section{
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.third-section h2{
+  text-align: center;
+}
+
+
+
+.grid-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+.block {
+  color: black;
+  padding: 20px;
+  text-align: center;
+}
+
+.block img{
+  border-radius: 5px;
+  margin-right: 10px;
+  width: 80%;
+  height: 80%;
+}
+
+
+

@@ -1,0 +1,172 @@
+
+
+
+html, body{
+    margin: 0;
+    background-image: url('assets/other/map.png');
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.evoli{
+    position: absolute;
+    transform: translateX(1000px) translateY(300px);
+    animation: evoli 4s linear infinite;
+
+}
+
+.carapuce{
+    position: absolute;
+    transform: translateX(700px) translateY(300px); 
+    
+}
+
+.carapuce:active{
+    animation: carapuce 0.2s;
+}
+
+.exclamation{
+    position:absolute;
+    transform: translateX(700px) translateY(270px);
+}
+
+.carapuce:not(:active) + .exclamation {
+    opacity: 0%;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.carapuce:active + .exclamation {
+    opacity: 100%;
+    transition: opacity ease-in-out;
+}
+
+.salameche{
+    position: absolute;
+    top:100px;
+    left:450px;
+    animation: salameche 2s linear infinite alternate;
+}   
+
+.pokeball{
+    width:20px;
+    height:20px;
+    position: absolute;
+    top: 260px;
+    left:510px;
+    z-index: 1;
+    opacity: 0%;
+}
+input{
+    appearance: none;
+}
+
+.bulbizar{
+    background-image: url(assets/pokemons/bulbizarre.png);
+    top:260px;
+    left:510px;
+    width: 41px;
+    height: 39px;
+    z-index: 2;
+    position: absolute;
+}
+
+
+.bulbizar:checked{
+    transition: opacity 0.2s ease-in-out;
+    opacity: 0%;
+}
+
+.bulbizar:checked + .pokeball{
+    transition: opacity 0.2s ease-in-out;
+    opacity: 100%;
+    animation: bulbizarre 0.5s 0.2s 
+}
+
+
+@keyframes evoli {
+    0% {
+        top: 0;
+        left: 0;
+    }
+    25% {
+        top: 0;
+        left: 100px;
+    }
+    50% {
+        top: 100px;
+        left: 100px;
+    }
+    75% {
+        top: 100px;
+        left: 0;
+    }
+    100% {
+        top: 0;
+        left: 0;
+    }
+}
+
+
+@keyframes carapuce{
+    0% {
+        top: -30px;
+        left:0;
+    }
+    100%{
+        top:0;
+        left:0;
+    }
+}
+
+@keyframes exclamation{
+    0%{
+        top:30px;
+        left:0;
+    }
+    100%{
+        top:0;
+        left:0;
+    }
+}
+
+@keyframes salameche{
+    /*0%{
+        transform: translate(0);
+    }
+    75%{
+        transform: translate(60px , 40px) ;
+    }
+    100%{
+        transform: translate(60px,40px) rotate(180deg) ;
+    }
+}*/
+0%{
+    transform: translate(0);
+}
+75%{
+    transform: translate(60px,40px);
+}
+100% {
+    transform: translate(60px, 40px) rotate(180deg);
+}
+}
+
+@keyframes bulbizarre {
+    0%{
+        transform: translate(0);
+    }
+    25%{
+        transform: translate(10px);
+    }
+    50%{
+        transform: translate(0);
+    }
+    75%{
+        transform: translate(10px);
+    }
+    100%{
+        transform: translate(0);
+    }
+    
+}

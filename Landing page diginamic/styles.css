@@ -1,0 +1,282 @@
+*{
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'amicale-regular';
+    src: url(assets/fonts/amicale-regular/Amicale-Regular.otf),
+         
+}    
+
+@font-face {
+    font-family: 'League-Gothic';
+    src: url(assets/fonts/League_Gothic/LeagueGothic-Regular.ttf);
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'amicale-regular';
+    font-weight: normal;
+    
+}
+
+h2{
+    font-family: 'League-Gothic';
+    font-size: 60px;
+    letter-spacing: 2px;
+    margin: 35px 0 40px 0;
+   
+     
+}
+.header-nav{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    }
+    
+.header-nav img {
+    width: 40%;
+}
+.navbar{
+  padding: 5px;
+  width: 600px;
+  height: auto;
+  margin: 0 auto 0 220px;
+  font-weight: bold;
+}
+
+.navbar ul{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar ul a {
+  text-decoration: none;
+  color:#164479;
+  list-style-type: none;
+}
+
+span{
+    font-size: 20px;
+}
+
+.green{
+    color:#A7E43B;
+    font-size: 26px;
+}
+
+.blue{
+    color: #164479;
+    font-size: 26px;
+}
+
+.orange{
+    color:#FF914D;
+    font-size: 26px;
+}
+
+.section-one{
+    display: flex;
+    flex-direction: column;
+}
+
+.principal-title{
+    text-align: center;
+    background-image: url(assets/images/annie-spratt-QckxruozjRg-unsplash.webp);
+    height: 150px;
+    background-size: cover;
+    color:white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-position: center;
+}
+
+.two{
+    background-image: url(assets/images/hj-barraza-l2Eb_cV6a7A-unsplash.webp);
+}
+.three{
+    background-image: url(assets/images/scott-graham-5fNmWej4tAA-unsplash.webp);
+}
+
+.content{
+    padding:100px;
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.first-content{
+    margin: 0 auto;   
+}
+.first-content p{
+    margin: 0;
+}
+.first-content h4 {
+    margin:5px 0 5px 0;
+}
+
+.content-about{
+    display: flex;
+    padding-top: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+.box1,
+.box2,
+.box3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+    height:257px;
+    align-items: center;
+}
+.box1 p,
+.box2 p,
+.box3 p{
+    margin: 0;
+}
+.image-size{
+    margin: 0 auto;
+    width: 80px;
+    height: 80px;
+}
+.bis{
+    padding: 0 0 100px 0;
+}
+
+.lien{
+    text-align: center;
+    background-color: #164479;
+    border-radius: 30px;
+    width: 25%;
+    margin: 0 auto;
+    height: 60px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.lien a {
+    color: white;
+    text-decoration: none;
+    margin: 0 auto;
+    padding: 0;
+    font-size: 20px;
+}
+
+.bis-three{
+    display: flex;
+    justify-content: space-between;
+    height: 220px;
+    
+}
+
+p{
+    padding: 20px;
+}
+
+.image-sizebis{
+    margin: 0 auto;
+    width: 150px;
+    height: 80px;
+}
+
+
+.paragraphs{
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+}
+
+.box-img{
+    width: 100px;
+    height: 200px;
+    padding: 20px;
+}
+.chevron{
+    color:grey;
+    width: 100px;
+    height: 150px;
+    padding: 20px;
+}
+
+.position-container{
+    margin-top: 200px;
+    position: relative;
+    
+}
+.reverse{
+    transform: scaleX(-1);
+}
+.absolute-img img{
+    width: 1100px;
+    position: absolute;
+    transform: translateX(780px) translateY(-100px);
+    z-index: 1;
+}
+.container{
+    display: flex;
+    z-index: 2;
+    justify-content: center;
+    
+}
+.formulaire{
+    display: flex;
+    align-items: center;
+    
+}
+.grid-formulaire{
+    position: relative;
+    width: 100%;
+    background-color: white;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+    border-radius:5px ;
+    box-shadow: 0 0 10px 0 black;
+}
+
+.left-formulaire{
+    background-color: #333;
+    z-index: 2;
+    border-radius: 5px;
+    height: 375px;
+}
+
+.left-formulaire h4{
+    text-align: center; 
+     color:#FF914D;
+
+}
+
+.elem1 input, .elem2 input{
+    padding: 10px;
+}
+
+.elem2 #piece-jointe{
+    margin-right: 20px;
+}
+
+.elem2 button{
+    margin-left: 20px;
+    padding: 5px;
+}
+.form-area {
+    width: 100%; /* La largeur que vous souhaitez pour les champs de saisie */
+    padding: 10px; /* Facultatif : ajoutez un espacement intérieur pour améliorer l'apparence */
+    margin-bottom: 10px; /* Facultatif : ajoutez de l'espacement entre les champs */
+    box-sizing: border-box; /* Inclure le padding et les bordures dans la largeur totale */
+}
