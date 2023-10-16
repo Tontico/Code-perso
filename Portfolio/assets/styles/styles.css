@@ -335,7 +335,7 @@ span {
     display: none;
   }
   p {
-    text-align: center !important;
+    text-align: justify !important;
   }
 
   .img-container {
