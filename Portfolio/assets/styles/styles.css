@@ -39,6 +39,10 @@ nav {
   height: 50px;
 }
 
+.only-black{
+  color:black;
+}
+
 .position-hover a:hover {
   color: orangered;
 }
