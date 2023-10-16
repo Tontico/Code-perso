@@ -247,7 +247,7 @@ span {
 
 @keyframes title-footer {
   from {
-    transform: translateX(-30px);
+    transform: translateX(-40px);
   }
 
   to {
